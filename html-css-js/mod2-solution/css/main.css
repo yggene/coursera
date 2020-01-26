@@ -16,7 +16,7 @@ p {
 
 .title {
     position: relative;
-    float: left;
+    float: right;
     width: 40%;
     border: black solid 1px;
     background-color: yellow;
