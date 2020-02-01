@@ -35,6 +35,10 @@ h1 {
 	padding: 15px;
 }
 
+#chicken p {
+	height: 1000px;
+}
+
 
 /********** Large devices **********/
 @media (min-width: 992px) {
