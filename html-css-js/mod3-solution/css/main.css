@@ -1,0 +1,70 @@
+body {
+	min-width: 350px;
+}
+
+h1 {
+	margin: auto auto 15px;
+	font-size: 2em;
+}
+
+#item1, #item2{
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#dropDownList {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.title {
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 100%;
+	background-color: rgba(27, 109, 133, 0.8);
+	color: white;
+	padding: 10px;
+}
+
+.main-text {
+	background-color: lightgrey;
+	height: auto;
+}
+
+.main-text p {
+	padding: 15px;
+}
+
+#chicken p {
+	height: 1000px;
+}
+
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+	.main-text {
+		margin: auto 75px 30px;
+	}
+}
+
+/********** Small devices **********/
+@media (min-width: 768px) and (max-width: 991px){
+	#navbar-adjust {
+		margin-left: 15px;
+	}
+	.main-text {
+		margin: auto 75px 30px;
+	}
+}
+
+/********** Extra small devices **********/
+@media (max-width: 767px) {
+	#navbar-adjust {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.main-text {
+		margin: auto 30px 30px;
+	}
+}
+
